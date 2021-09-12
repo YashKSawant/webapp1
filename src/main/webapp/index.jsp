@@ -6,7 +6,10 @@
     <title>Tomcat</title>
     <style>
         body {
-            background-image: url('https://thumbor.forbes.com/thumbor/711x533/https://blogs-images.forbes.com/laurabegleybloom/files/2018/06/Bali-Sunset-JetsetChristina-Single-Fin-Uluwatu-Bali-1200x900.jpg?width=960');
+            display:flex;
+            justify-content:center;
+            align-tems:center;
+            background-image: url('https://wallpaperaccess.com/full/201322.jpg');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -26,7 +29,7 @@
     </style>
 </head>
 <body>
-    <h2>Welcome to Tomcat Website</h2>
+    <h2>Welcome to Your Website</h2>
     <h3>Registration Form</h3>
     <form action="HelloWorldServlet" method="get">
         <label for="name">Name</label>
@@ -39,6 +42,10 @@
 
         <label for="email">Email</label>
         <input type="email" name="email" placeholder="Email">
+        <br><br>
+        
+        <label for="mobile">Mobile No.</label>
+        <input type="nummber" name="mobile" placeholder="Mobile">
         <br><br>
     
         <label for="qualification">Qualification</label>
