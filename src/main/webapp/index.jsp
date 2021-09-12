@@ -17,7 +17,7 @@
         }
         h2 {
             text-align: center;
-            color: black;
+            color: white;
             margin-bottom: 30px;
         }
         h3 {
@@ -44,10 +44,6 @@
         <input type="email" name="email" placeholder="Email">
         <br><br>
         
-        <label for="mobile">Mobile No.</label>
-        <input type="nummber" name="mobile" placeholder="Mobile">
-        <br><br>
-    
         <label for="qualification">Qualification</label>
         <select id="qual" name="qual">
           <option value="10">10th Pass</option>
